@@ -46,5 +46,3 @@ def get_posts(db:Session,skip:int=0,limit:int=100):
         .offset(skip)\
         .limit(limit)\
         .all()
-
-
